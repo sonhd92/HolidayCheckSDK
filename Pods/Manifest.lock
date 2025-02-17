@@ -1,0 +1,16 @@
+PODS:
+  - HolidaySDK (0.0.1)
+
+DEPENDENCIES:
+  - HolidaySDK (from `../HolidaySDK`)
+
+EXTERNAL SOURCES:
+  HolidaySDK:
+    :path: "../HolidaySDK"
+
+SPEC CHECKSUMS:
+  HolidaySDK: 38dadae52d3c3623e1e0777bb69fb83b64c6a5b8
+
+PODFILE CHECKSUM: 8d2b110365f97a0fc1fbbfd531f67590ffe8ab52
+
+COCOAPODS: 1.16.2

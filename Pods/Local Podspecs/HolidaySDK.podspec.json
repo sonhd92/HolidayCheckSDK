@@ -1,0 +1,23 @@
+{
+  "name": "HolidaySDK",
+  "version": "0.0.1",
+  "summary": "A short description of HolidaySDK.",
+  "description": "HolidaySDK",
+  "homepage": "http://EXAMPLE/HolidaySDK",
+  "license": "Hoang Duc Son",
+  "authors": {
+    "SonHD": "sonhd.92@gmail.com"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "source": {
+    "git": "https://github.com/sonhd92/HolidayCheckSDK.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "HolidaySDK",
+    "HolidaySDK/**/*.{h,m,swift}"
+  ],
+  "exclude_files": "Classes/Exclude"
+}

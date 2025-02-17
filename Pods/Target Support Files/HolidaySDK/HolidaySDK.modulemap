@@ -1,0 +1,6 @@
+framework module HolidaySDK {
+  umbrella header "HolidaySDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

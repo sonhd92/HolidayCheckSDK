@@ -1,0 +1,6 @@
+framework module Pods_HolidaySDK {
+  umbrella header "Pods-HolidaySDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,969 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E758CF62D6039DD00DF0A46 /* HolidaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E758CED2D6039DD00DF0A46 /* HolidaySDK.framework */; };
+		B57D87AB933E7144C4A19A0D /* Pods_HolidaySDK_HolidaySDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12154868EF311A6FEF706A73 /* Pods_HolidaySDK_HolidaySDKTests.framework */; };
+		F8E501ECF70ABBDDAD8DD140 /* Pods_HolidayCheckApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 144EAEE3917126642CB561A3 /* Pods_HolidayCheckApp.framework */; };
+		FB4E443631FF6B00524BB3F2 /* Pods_HolidaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECBA76E2DF16DE3C9291A1DA /* Pods_HolidaySDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E758CF72D6039DD00DF0A46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E758CE42D6039DC00DF0A46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E758CEC2D6039DD00DF0A46;
+			remoteInfo = HolidaySDK;
+		};
+		7E758D222D61981D00DF0A46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E758CE42D6039DC00DF0A46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E758D112D61981B00DF0A46;
+			remoteInfo = HolidayCheckApp;
+		};
+		7E758D2C2D61981D00DF0A46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E758CE42D6039DC00DF0A46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E758D112D61981B00DF0A46;
+			remoteInfo = HolidayCheckApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12154868EF311A6FEF706A73 /* Pods_HolidaySDK_HolidaySDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HolidaySDK_HolidaySDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		144EAEE3917126642CB561A3 /* Pods_HolidayCheckApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HolidayCheckApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		255512F5316FE6BC977064A0 /* Pods-HolidaySDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HolidaySDK.release.xcconfig"; path = "Target Support Files/Pods-HolidaySDK/Pods-HolidaySDK.release.xcconfig"; sourceTree = "<group>"; };
+		6B26DBA7FA849167EB938ED3 /* Pods-HolidaySDK-HolidaySDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HolidaySDK-HolidaySDKTests.release.xcconfig"; path = "Target Support Files/Pods-HolidaySDK-HolidaySDKTests/Pods-HolidaySDK-HolidaySDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		6D8AA10D470A5A022D0AFF67 /* Pods-HolidaySDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HolidaySDK.debug.xcconfig"; path = "Target Support Files/Pods-HolidaySDK/Pods-HolidaySDK.debug.xcconfig"; sourceTree = "<group>"; };
+		741082FAA80AC26E3569B58B /* Pods-HolidaySDK-HolidaySDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HolidaySDK-HolidaySDKTests.debug.xcconfig"; path = "Target Support Files/Pods-HolidaySDK-HolidaySDKTests/Pods-HolidaySDK-HolidaySDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E758CED2D6039DD00DF0A46 /* HolidaySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HolidaySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E758CF52D6039DD00DF0A46 /* HolidaySDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolidaySDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E758D122D61981B00DF0A46 /* HolidayCheckApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolidayCheckApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E758D212D61981D00DF0A46 /* HolidayCheckAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolidayCheckAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E758D2B2D61981D00DF0A46 /* HolidayCheckAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolidayCheckAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E8927FA4BC9948D822CC195 /* Pods-HolidayCheckApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HolidayCheckApp.debug.xcconfig"; path = "Target Support Files/Pods-HolidayCheckApp/Pods-HolidayCheckApp.debug.xcconfig"; sourceTree = "<group>"; };
+		92487E48E6E3E25298DF2DF0 /* Pods-HolidayCheckApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HolidayCheckApp.release.xcconfig"; path = "Target Support Files/Pods-HolidayCheckApp/Pods-HolidayCheckApp.release.xcconfig"; sourceTree = "<group>"; };
+		ECBA76E2DF16DE3C9291A1DA /* Pods_HolidaySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HolidaySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7E758CFD2D6039DD00DF0A46 /* Exceptions for "HolidaySDK" folder in "HolidaySDK" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			publicHeaders = (
+				HolidaySDK.h,
+			);
+			target = 7E758CEC2D6039DD00DF0A46 /* HolidaySDK */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7E758CEF2D6039DD00DF0A46 /* HolidaySDK */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7E758CFD2D6039DD00DF0A46 /* Exceptions for "HolidaySDK" folder in "HolidaySDK" target */,
+			);
+			path = HolidaySDK;
+			sourceTree = "<group>";
+		};
+		7E758CF92D6039DD00DF0A46 /* HolidaySDKTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HolidaySDKTests;
+			sourceTree = "<group>";
+		};
+		7E758D132D61981B00DF0A46 /* HolidayCheckApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HolidayCheckApp;
+			sourceTree = "<group>";
+		};
+		7E758D242D61981D00DF0A46 /* HolidayCheckAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HolidayCheckAppTests;
+			sourceTree = "<group>";
+		};
+		7E758D2E2D61981D00DF0A46 /* HolidayCheckAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HolidayCheckAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E758CEA2D6039DD00DF0A46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4E443631FF6B00524BB3F2 /* Pods_HolidaySDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E758CF22D6039DD00DF0A46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E758CF62D6039DD00DF0A46 /* HolidaySDK.framework in Frameworks */,
+				B57D87AB933E7144C4A19A0D /* Pods_HolidaySDK_HolidaySDKTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E758D0F2D61981B00DF0A46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E501ECF70ABBDDAD8DD140 /* Pods_HolidayCheckApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E758D1E2D61981D00DF0A46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E758D282D61981D00DF0A46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E758CE32D6039DC00DF0A46 = {
+			isa = PBXGroup;
+			children = (
+				7E758CEF2D6039DD00DF0A46 /* HolidaySDK */,
+				7E758CF92D6039DD00DF0A46 /* HolidaySDKTests */,
+				7E758D132D61981B00DF0A46 /* HolidayCheckApp */,
+				7E758D242D61981D00DF0A46 /* HolidayCheckAppTests */,
+				7E758D2E2D61981D00DF0A46 /* HolidayCheckAppUITests */,
+				7E758CEE2D6039DD00DF0A46 /* Products */,
+				E8756E1EADADB8E12B5B3A0E /* Pods */,
+				984B6D1F854CE7C5376F785C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E758CEE2D6039DD00DF0A46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E758CED2D6039DD00DF0A46 /* HolidaySDK.framework */,
+				7E758CF52D6039DD00DF0A46 /* HolidaySDKTests.xctest */,
+				7E758D122D61981B00DF0A46 /* HolidayCheckApp.app */,
+				7E758D212D61981D00DF0A46 /* HolidayCheckAppTests.xctest */,
+				7E758D2B2D61981D00DF0A46 /* HolidayCheckAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		984B6D1F854CE7C5376F785C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECBA76E2DF16DE3C9291A1DA /* Pods_HolidaySDK.framework */,
+				12154868EF311A6FEF706A73 /* Pods_HolidaySDK_HolidaySDKTests.framework */,
+				144EAEE3917126642CB561A3 /* Pods_HolidayCheckApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8756E1EADADB8E12B5B3A0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D8AA10D470A5A022D0AFF67 /* Pods-HolidaySDK.debug.xcconfig */,
+				255512F5316FE6BC977064A0 /* Pods-HolidaySDK.release.xcconfig */,
+				741082FAA80AC26E3569B58B /* Pods-HolidaySDK-HolidaySDKTests.debug.xcconfig */,
+				6B26DBA7FA849167EB938ED3 /* Pods-HolidaySDK-HolidaySDKTests.release.xcconfig */,
+				8E8927FA4BC9948D822CC195 /* Pods-HolidayCheckApp.debug.xcconfig */,
+				92487E48E6E3E25298DF2DF0 /* Pods-HolidayCheckApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7E758CE82D6039DD00DF0A46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7E758CEC2D6039DD00DF0A46 /* HolidaySDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E758CFE2D6039DD00DF0A46 /* Build configuration list for PBXNativeTarget "HolidaySDK" */;
+			buildPhases = (
+				CD0888C04C46C4CEBF9B1751 /* [CP] Check Pods Manifest.lock */,
+				7E758CE82D6039DD00DF0A46 /* Headers */,
+				7E758CE92D6039DD00DF0A46 /* Sources */,
+				7E758CEA2D6039DD00DF0A46 /* Frameworks */,
+				7E758CEB2D6039DD00DF0A46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7E758CEF2D6039DD00DF0A46 /* HolidaySDK */,
+			);
+			name = HolidaySDK;
+			productName = HolidaySDK;
+			productReference = 7E758CED2D6039DD00DF0A46 /* HolidaySDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E758CF42D6039DD00DF0A46 /* HolidaySDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E758D032D6039DD00DF0A46 /* Build configuration list for PBXNativeTarget "HolidaySDKTests" */;
+			buildPhases = (
+				E8D10A3A2374F404400A37E1 /* [CP] Check Pods Manifest.lock */,
+				7E758CF12D6039DD00DF0A46 /* Sources */,
+				7E758CF22D6039DD00DF0A46 /* Frameworks */,
+				7E758CF32D6039DD00DF0A46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E758CF82D6039DD00DF0A46 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7E758CF92D6039DD00DF0A46 /* HolidaySDKTests */,
+			);
+			name = HolidaySDKTests;
+			productName = HolidaySDKTests;
+			productReference = 7E758CF52D6039DD00DF0A46 /* HolidaySDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E758D112D61981B00DF0A46 /* HolidayCheckApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E758D332D61981D00DF0A46 /* Build configuration list for PBXNativeTarget "HolidayCheckApp" */;
+			buildPhases = (
+				F7F302B414D72D842DFD8DA6 /* [CP] Check Pods Manifest.lock */,
+				7E758D0E2D61981B00DF0A46 /* Sources */,
+				7E758D0F2D61981B00DF0A46 /* Frameworks */,
+				7E758D102D61981B00DF0A46 /* Resources */,
+				B3E60F0649DE0347B5DDE407 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7E758D132D61981B00DF0A46 /* HolidayCheckApp */,
+			);
+			name = HolidayCheckApp;
+			productName = HolidayCheckApp;
+			productReference = 7E758D122D61981B00DF0A46 /* HolidayCheckApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E758D202D61981D00DF0A46 /* HolidayCheckAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E758D362D61981D00DF0A46 /* Build configuration list for PBXNativeTarget "HolidayCheckAppTests" */;
+			buildPhases = (
+				7E758D1D2D61981D00DF0A46 /* Sources */,
+				7E758D1E2D61981D00DF0A46 /* Frameworks */,
+				7E758D1F2D61981D00DF0A46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E758D232D61981D00DF0A46 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7E758D242D61981D00DF0A46 /* HolidayCheckAppTests */,
+			);
+			name = HolidayCheckAppTests;
+			productName = HolidayCheckAppTests;
+			productReference = 7E758D212D61981D00DF0A46 /* HolidayCheckAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E758D2A2D61981D00DF0A46 /* HolidayCheckAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E758D392D61981D00DF0A46 /* Build configuration list for PBXNativeTarget "HolidayCheckAppUITests" */;
+			buildPhases = (
+				7E758D272D61981D00DF0A46 /* Sources */,
+				7E758D282D61981D00DF0A46 /* Frameworks */,
+				7E758D292D61981D00DF0A46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E758D2D2D61981D00DF0A46 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7E758D2E2D61981D00DF0A46 /* HolidayCheckAppUITests */,
+			);
+			name = HolidayCheckAppUITests;
+			productName = HolidayCheckAppUITests;
+			productReference = 7E758D2B2D61981D00DF0A46 /* HolidayCheckAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E758CE42D6039DC00DF0A46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					7E758CEC2D6039DD00DF0A46 = {
+						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
+					};
+					7E758CF42D6039DD00DF0A46 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					7E758D112D61981B00DF0A46 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					7E758D202D61981D00DF0A46 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 7E758D112D61981B00DF0A46;
+					};
+					7E758D2A2D61981D00DF0A46 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 7E758D112D61981B00DF0A46;
+					};
+				};
+			};
+			buildConfigurationList = 7E758CE72D6039DC00DF0A46 /* Build configuration list for PBXProject "HolidaySDK" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E758CE32D6039DC00DF0A46;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7E758CEE2D6039DD00DF0A46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E758CEC2D6039DD00DF0A46 /* HolidaySDK */,
+				7E758CF42D6039DD00DF0A46 /* HolidaySDKTests */,
+				7E758D112D61981B00DF0A46 /* HolidayCheckApp */,
+				7E758D202D61981D00DF0A46 /* HolidayCheckAppTests */,
+				7E758D2A2D61981D00DF0A46 /* HolidayCheckAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E758CEB2D6039DD00DF0A46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E758CF32D6039DD00DF0A46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E758D102D61981B00DF0A46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E758D1F2D61981D00DF0A46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E758D292D61981D00DF0A46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B3E60F0649DE0347B5DDE407 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HolidayCheckApp/Pods-HolidayCheckApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HolidayCheckApp/Pods-HolidayCheckApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HolidayCheckApp/Pods-HolidayCheckApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD0888C04C46C4CEBF9B1751 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HolidaySDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8D10A3A2374F404400A37E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HolidaySDK-HolidaySDKTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7F302B414D72D842DFD8DA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HolidayCheckApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E758CE92D6039DD00DF0A46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E758CF12D6039DD00DF0A46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E758D0E2D61981B00DF0A46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E758D1D2D61981D00DF0A46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E758D272D61981D00DF0A46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E758CF82D6039DD00DF0A46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E758CEC2D6039DD00DF0A46 /* HolidaySDK */;
+			targetProxy = 7E758CF72D6039DD00DF0A46 /* PBXContainerItemProxy */;
+		};
+		7E758D232D61981D00DF0A46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E758D112D61981B00DF0A46 /* HolidayCheckApp */;
+			targetProxy = 7E758D222D61981D00DF0A46 /* PBXContainerItemProxy */;
+		};
+		7E758D2D2D61981D00DF0A46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E758D112D61981B00DF0A46 /* HolidayCheckApp */;
+			targetProxy = 7E758D2C2D61981D00DF0A46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7E758CFF2D6039DD00DF0A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D8AA10D470A5A022D0AFF67 /* Pods-HolidaySDK.debug.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9VVQKL345M;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonhd.HolidaySDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E758D002D6039DD00DF0A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 255512F5316FE6BC977064A0 /* Pods-HolidaySDK.release.xcconfig */;
+			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9VVQKL345M;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonhd.HolidaySDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E758D012D6039DD00DF0A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E758D022D6039DD00DF0A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E758D042D6039DD00DF0A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 741082FAA80AC26E3569B58B /* Pods-HolidaySDK-HolidaySDKTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VVQKL345M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonhd.HolidaySDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E758D052D6039DD00DF0A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B26DBA7FA849167EB938ED3 /* Pods-HolidaySDK-HolidaySDKTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VVQKL345M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonhd.HolidaySDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E758D342D61981D00DF0A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E8927FA4BC9948D822CC195 /* Pods-HolidayCheckApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HolidayCheckApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 9VVQKL345M;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonhd.HolidayCheckApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E758D352D61981D00DF0A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92487E48E6E3E25298DF2DF0 /* Pods-HolidayCheckApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HolidayCheckApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 9VVQKL345M;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonhd.HolidayCheckApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E758D372D61981D00DF0A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VVQKL345M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonhd.HolidayCheckAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HolidayCheckApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HolidayCheckApp";
+			};
+			name = Debug;
+		};
+		7E758D382D61981D00DF0A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VVQKL345M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonhd.HolidayCheckAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HolidayCheckApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HolidayCheckApp";
+			};
+			name = Release;
+		};
+		7E758D3A2D61981D00DF0A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VVQKL345M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonhd.HolidayCheckAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HolidayCheckApp;
+			};
+			name = Debug;
+		};
+		7E758D3B2D61981D00DF0A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VVQKL345M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sonhd.HolidayCheckAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HolidayCheckApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E758CE72D6039DC00DF0A46 /* Build configuration list for PBXProject "HolidaySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E758D012D6039DD00DF0A46 /* Debug */,
+				7E758D022D6039DD00DF0A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E758CFE2D6039DD00DF0A46 /* Build configuration list for PBXNativeTarget "HolidaySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E758CFF2D6039DD00DF0A46 /* Debug */,
+				7E758D002D6039DD00DF0A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E758D032D6039DD00DF0A46 /* Build configuration list for PBXNativeTarget "HolidaySDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E758D042D6039DD00DF0A46 /* Debug */,
+				7E758D052D6039DD00DF0A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E758D332D61981D00DF0A46 /* Build configuration list for PBXNativeTarget "HolidayCheckApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E758D342D61981D00DF0A46 /* Debug */,
+				7E758D352D61981D00DF0A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E758D362D61981D00DF0A46 /* Build configuration list for PBXNativeTarget "HolidayCheckAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E758D372D61981D00DF0A46 /* Debug */,
+				7E758D382D61981D00DF0A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E758D392D61981D00DF0A46 /* Build configuration list for PBXNativeTarget "HolidayCheckAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E758D3A2D61981D00DF0A46 /* Debug */,
+				7E758D3B2D61981D00DF0A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E758CE42D6039DC00DF0A46 /* Project object */;
+}

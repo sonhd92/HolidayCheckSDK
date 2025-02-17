@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "6ACCAB0D-5AA3-40F2-8A8C-D726EEE42BC1",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : false,
+      "target" : {
+        "containerPath" : "container:HolidaySDK.xcodeproj",
+        "identifier" : "7E758CF42D6039DD00DF0A46",
+        "name" : "HolidaySDKTests"
+      }
+    }
+  ],
+  "version" : 1
+}
